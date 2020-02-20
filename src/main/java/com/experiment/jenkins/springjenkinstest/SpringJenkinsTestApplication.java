@@ -18,6 +18,8 @@ public class SpringJenkinsTestApplication {
 	}
 	public static void main(String[] args) {
 		logger.info("Application Executed....");
+
+		logger.info("Execution 2");
 		SpringApplication.run(SpringJenkinsTestApplication.class, args);
 	}
 
