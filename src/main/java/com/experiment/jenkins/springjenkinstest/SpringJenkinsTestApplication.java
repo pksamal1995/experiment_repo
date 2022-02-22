@@ -15,6 +15,10 @@ public class SpringJenkinsTestApplication {
 	@PostConstruct
 	public void init() {
 		logger.info("Application Started.....>>>>");
+		for (int i = 0; i < 10; i++) {
+			logger.info("Diary: " + i);
+		}
+		
 	}
 	public static void main(String[] args) {
 		logger.info("Application Executed....");
